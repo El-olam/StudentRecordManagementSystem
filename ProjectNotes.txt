@@ -1,0 +1,81 @@
+STUDENT RECORD MANAGEMENT SYSTEM
+Project Notes
+
+Project Name: Student Record Management System
+
+Project Description
+The Student Record Management System is a Java console application that is used to manage student information. The system allows the user to add, search, update, delete, and display student records. It also stores data in different file formats and generates reports.
+
+Classes Used
+
+1. Student.java
+   This class represents a student object. It contains the following information:
+
+* Student ID
+* Student Name
+* Department
+* GPA
+
+The class uses private variables with getters and setters to provide encapsulation. It also implements Serializable so that student objects can be saved and loaded from files.
+
+2. StudentRecordManager.java
+   This class is responsible for file handling and report generation.
+
+Functions:
+
+* Save and load student records from a text file (students.txt)
+* Save and load student records from a binary file (students.dat)
+* Save and load student records using serialization (students.ser)
+* Create a backup file (students_backup.bak)
+* Display file properties
+* Generate statistical reports
+
+File Handling Used:
+
+* PrintWriter and FileWriter
+* Scanner
+* DataOutputStream and DataInputStream
+* ObjectOutputStream and ObjectInputStream
+* BufferedInputStream and BufferedOutputStream
+* File class
+
+3. studentrecordsystem.java
+   This is the main class of the application. It provides a menu-driven interface that allows the user to interact with the system.
+
+Menu Options:
+
+1. Add Student
+2. Search Student by ID
+3. Update Student Information
+4. Delete Student
+5. Display All Students
+6. Save All Formats
+7. View Summary Report
+8. Run Backup
+9. View File Attributes
+10. Exit
+
+Additional Features
+
+* Automatically creates the data folder if it does not exist.
+* Displays file name, file path, file size, and last modified date.
+* Creates backup copies of student records.
+* Generates reports showing:
+  • Total number of students
+  • Highest GPA
+  • Lowest GPA
+  • Average GPA
+
+Concepts Applied in the Project
+
+* Classes and Objects
+* Constructors
+* Encapsulation
+* ArrayList
+* Serialization
+* Exception Handling
+* File Input and Output Streams
+* Loops and Switch Statements
+
+Conclusion
+This project demonstrates the use of Java object-oriented programming and file handling concepts through a student record management system that stores, manages, and analyzes student information efficiently.
